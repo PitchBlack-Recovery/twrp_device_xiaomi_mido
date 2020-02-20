@@ -5,7 +5,7 @@ version: 2 jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      PBRP_BRANCH: 'android-9.0'
+      # PBRP_BRANCH: 'android-9.0'
       VERSION: '2.9.0'
       VENDOR: 'xiaomi'
       CODENAME: 'mido'
@@ -32,5 +32,5 @@ version: 2 jobs:
       - build:
           filters:
             branches:
-              only: android-9.0
+              only: pie
           context: org-global
