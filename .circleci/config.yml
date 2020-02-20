@@ -13,7 +13,8 @@ jobs:
       BUILD_LUNCH: 'omni_mido-eng'
       # Remove the following when Publishing Official
       TEST_BUILD: 'true'
-      # Only for Official Build, uncomment following PB_OFFICIAL: 'true'
+      # Only for Official Build, uncomment following
+      # PB_OFFICIAL: 'true'
     working_directory: /home/builder/pitchblack
     steps:
       - checkout
@@ -26,7 +27,7 @@ jobs:
             git config --global color.ui true
             wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/build.sh
             source build.sh
-  workflows:
+workflows:
   version: 2
   build_and_test:
     jobs:
