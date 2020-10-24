@@ -6,13 +6,15 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       VERSION: '3.0.0'
-      MAINTAINER: '@shashank1436'
+      MAINTAINER: '@jennifer1436'
       VENDOR: 'xiaomi'
       CODENAME: 'mido'
       FLAVOR: 'eng'
       PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - 
+        - Updated kernel
+        - Fixed bootloop issue on some devices
+        - Updated some config & vendor blobs
     working_directory: /home/builder/pitchblack
     steps:
       - run:
