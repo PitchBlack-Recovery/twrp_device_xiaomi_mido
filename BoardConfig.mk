@@ -91,6 +91,9 @@ ALLOW_MISSING_DEPENDENCIES := true
 TW_FORCE_USE_BUSYBOX := true
 #AB_OTA_UPDATER := false
 
+# LUN file
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
+
 # Treble
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_COPY_OUT_VENDOR := vendor
