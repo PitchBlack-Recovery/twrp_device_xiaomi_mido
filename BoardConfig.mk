@@ -92,6 +92,7 @@ TW_FORCE_USE_BUSYBOX := true
 #AB_OTA_UPDATER := false
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
 
 # LUN file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
