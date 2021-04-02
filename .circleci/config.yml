@@ -13,12 +13,8 @@ jobs:
       PB_OFFICIAL: 'true'
       CHANGELOG: |
         - Upstream with latest source
-        - Based on TWRP 3.5.0
-        - Disable Patching DM-Verity By Default
-        - Skiped Treble Compatibility
-        - Fixed flashlight 
-        - Updated prebuilt  kernel
-        - Some minor Improvement 
+        - Based on TWRP 3.5.1
+        - Based on new UI 
     working_directory: /home/builder/pitchblack
     steps:
       - run:
