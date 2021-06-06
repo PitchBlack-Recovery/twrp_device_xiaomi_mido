@@ -1,5 +1,7 @@
 # Device Recovery Tree for Xiaomi Redmi Note 4 & 4x (Mido)
 
+Kernel source: "https://github.com/zeelog/android_kernel_xiaomi_mido.git"
+
 ## Spec Sheet
 
 | Feature                 | Specification                     |
